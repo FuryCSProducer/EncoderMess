@@ -38,7 +38,7 @@ module.exports = {
 	base64: base64
 }
 
-var base632 = function base32(type, data) {
+var base32 = function base32(type, data) {
 	if (data.args.length > 2) {
 		switch (data.args[1].toLocaleLowerCase()) {
 			case "decode":
