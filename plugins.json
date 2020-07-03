@@ -1,0 +1,34 @@
+{
+	"plugin_name": "EncodedMessage",
+	"plugin_scope": "encodedmsg",
+	"plugin_exec": "handler.js",
+	"command_map": {
+		"base64": {
+			"hargs": {
+				"en_US": "<encode/decode> <content>",
+				"vi_VN": "<encode/decode> <nội dung>"
+			},
+			"hdesc": {
+				"en_US": "Encode/decode with Base64",
+				"vi_VN": "Mã hoá/giải mã với Base64"
+			},
+			"fscope": "base64",
+			"compatibly": 0
+		},
+		"base32": {
+			"hargs": {
+				"en_US": "<encode/decode> <content>",
+				"vi_VN": "<encode/decode> <nội dung>"
+			},
+			"hdesc": {
+				"en_US": "Encode/decode with Base32"
+				"vi_VN": "Mã hoá/giải mã với Base32"
+			},
+			"fscope": "base32",
+			"compatibly": 0
+		}
+	},
+	"author": "UIRI,FuryCS",
+	"version": "1.0",
+	"complied_for": "0.3.0"
+}
